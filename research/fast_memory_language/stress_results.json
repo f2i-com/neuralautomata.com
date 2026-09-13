@@ -1,0 +1,386 @@
+{
+  "results/fast_seed0": {
+    "checkpoint": "results/fast_seed0/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.5893898368928682
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.99981689453125,
+        "exact_accuracy": 0.99853515625,
+        "memory_rms": 0.5882906371654204
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.99993896484375,
+        "exact_accuracy": 0.99951171875,
+        "memory_rms": 0.5886118411218033
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.99981689453125,
+        "exact_accuracy": 0.99853515625,
+        "memory_rms": 0.5898158258213573
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/fast_seed1": {
+    "checkpoint": "results/fast_seed1/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.5993860136876321
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6000980732672037
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.99993896484375,
+        "exact_accuracy": 0.99951171875,
+        "memory_rms": 0.5996467949650488
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6013629525285543
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/fast_seed2": {
+    "checkpoint": "results/fast_seed2/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6212669629509179
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6206647036642126
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6206943161977038
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 1.0,
+        "exact_accuracy": 1.0,
+        "memory_rms": 0.6210138186367065
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/frozen_keys_seed0": {
+    "checkpoint": "results/frozen_keys_seed0/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.83062744140625,
+        "exact_accuracy": 0.2529296875,
+        "memory_rms": 0.4695352637761984
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.82330322265625,
+        "exact_accuracy": 0.236328125,
+        "memory_rms": 0.47693501099008545
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.821044921875,
+        "exact_accuracy": 0.2275390625,
+        "memory_rms": 0.48270839506066937
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.81646728515625,
+        "exact_accuracy": 0.2216796875,
+        "memory_rms": 0.4844953212634005
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/frozen_keys_seed1": {
+    "checkpoint": "results/frozen_keys_seed1/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.85205078125,
+        "exact_accuracy": 0.3203125,
+        "memory_rms": 0.5066762190207151
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.8485107421875,
+        "exact_accuracy": 0.3076171875,
+        "memory_rms": 0.514943135519453
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.8450927734375,
+        "exact_accuracy": 0.30078125,
+        "memory_rms": 0.5189346901344614
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.84942626953125,
+        "exact_accuracy": 0.32177734375,
+        "memory_rms": 0.5216466066755291
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/frozen_keys_seed2": {
+    "checkpoint": "results/frozen_keys_seed2/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.86651611328125,
+        "exact_accuracy": 0.36279296875,
+        "memory_rms": 0.5352260211351721
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.86236572265625,
+        "exact_accuracy": 0.3544921875,
+        "memory_rms": 0.5414728590175415
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.85467529296875,
+        "exact_accuracy": 0.3349609375,
+        "memory_rms": 0.5474908265539685
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.85919189453125,
+        "exact_accuracy": 0.33740234375,
+        "memory_rms": 0.5464575278702478
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/gru_seed0": {
+    "checkpoint": "results/gru_seed0/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.54315185546875,
+        "exact_accuracy": 0.0205078125,
+        "memory_rms": 0.26395684076512493
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.5506591796875,
+        "exact_accuracy": 0.0146484375,
+        "memory_rms": 0.36076663196925846
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.56207275390625,
+        "exact_accuracy": 0.015625,
+        "memory_rms": 0.428829344936136
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.55853271484375,
+        "exact_accuracy": 0.0146484375,
+        "memory_rms": 0.44728417539103266
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/gru_seed1": {
+    "checkpoint": "results/gru_seed1/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.54718017578125,
+        "exact_accuracy": 0.01806640625,
+        "memory_rms": 0.24900027749258227
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.55035400390625,
+        "exact_accuracy": 0.01025390625,
+        "memory_rms": 0.33482022562224534
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.55596923828125,
+        "exact_accuracy": 0.00830078125,
+        "memory_rms": 0.396349965507308
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.5506591796875,
+        "exact_accuracy": 0.0146484375,
+        "memory_rms": 0.41066067374273296
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "results/gru_seed2": {
+    "checkpoint": "results/gru_seed2/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.54705810546875,
+        "exact_accuracy": 0.02099609375,
+        "memory_rms": 0.28552358952723805
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.55816650390625,
+        "exact_accuracy": 0.01318359375,
+        "memory_rms": 0.37551785970292706
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.5609130859375,
+        "exact_accuracy": 0.01513671875,
+        "memory_rms": 0.4409967481837411
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.55859375,
+        "exact_accuracy": 0.01416015625,
+        "memory_rms": 0.45955038497720163
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "capacity_results/fast_k8_seed0": {
+    "checkpoint": "capacity_results/fast_k8_seed0/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.82415771484375,
+        "exact_accuracy": 0.232421875,
+        "memory_rms": 0.6410336735960754
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.8133544921875,
+        "exact_accuracy": 0.205078125,
+        "memory_rms": 0.6525293166077827
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.80859375,
+        "exact_accuracy": 0.197265625,
+        "memory_rms": 0.6626157172053021
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.8026123046875,
+        "exact_accuracy": 0.1845703125,
+        "memory_rms": 0.6658795031033701
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "capacity_results/fast_k8_seed1": {
+    "checkpoint": "capacity_results/fast_k8_seed1/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.82611083984375,
+        "exact_accuracy": 0.2197265625,
+        "memory_rms": 0.676117405035196
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.8123779296875,
+        "exact_accuracy": 0.19384765625,
+        "memory_rms": 0.68659009493233
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.81353759765625,
+        "exact_accuracy": 0.19921875,
+        "memory_rms": 0.6983162154271662
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.80230712890625,
+        "exact_accuracy": 0.18359375,
+        "memory_rms": 0.700033964338546
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  },
+  "capacity_results/fast_k8_seed2": {
+    "checkpoint": "capacity_results/fast_k8_seed2/model.pt",
+    "curves": [
+      {
+        "overwrites": 0,
+        "bit_accuracy": 0.8218994140625,
+        "exact_accuracy": 0.22265625,
+        "memory_rms": 0.6727439489212707
+      },
+      {
+        "overwrites": 16,
+        "bit_accuracy": 0.81488037109375,
+        "exact_accuracy": 0.20703125,
+        "memory_rms": 0.6844904641035523
+      },
+      {
+        "overwrites": 64,
+        "bit_accuracy": 0.8126220703125,
+        "exact_accuracy": 0.20068359375,
+        "memory_rms": 0.69184961692306
+      },
+      {
+        "overwrites": 256,
+        "bit_accuracy": 0.8115234375,
+        "exact_accuracy": 0.20361328125,
+        "memory_rms": 0.6942760238347675
+      }
+    ],
+    "parameters_unchanged": true,
+    "episodes": 128,
+    "queries_per_probe": 2048
+  }
+}

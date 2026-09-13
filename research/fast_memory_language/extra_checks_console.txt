@@ -1,0 +1,44 @@
+[
+  {
+    "iterations": 1,
+    "max_context_bytes": 3,
+    "sampled_validation_nats_per_byte": 2.5117934346199036,
+    "sampled_validation_bits_per_byte": 3.6237519318635916,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  {
+    "iterations": 2,
+    "max_context_bytes": 5,
+    "sampled_validation_nats_per_byte": 1.5173566043376923,
+    "sampled_validation_bits_per_byte": 2.1890828483381055,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  {
+    "iterations": 4,
+    "max_context_bytes": 9,
+    "sampled_validation_nats_per_byte": 0.6246409937739372,
+    "sampled_validation_bits_per_byte": 0.9011664640536131,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  {
+    "iterations": 8,
+    "max_context_bytes": 17,
+    "sampled_validation_nats_per_byte": 0.32187506556510925,
+    "sampled_validation_bits_per_byte": 0.4643675608765931,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  {
+    "iterations": 16,
+    "max_context_bytes": 33,
+    "sampled_validation_nats_per_byte": 0.45992947183549404,
+    "sampled_validation_bits_per_byte": 0.6635379681757474,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  {
+    "iterations": 32,
+    "max_context_bytes": 65,
+    "sampled_validation_nats_per_byte": 1.1312886476516724,
+    "sampled_validation_bits_per_byte": 1.6321045217810497,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  }
+]

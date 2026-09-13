@@ -1,0 +1,6 @@
+* text=auto eol=lf
+research/** -text
+*.png -text
+*.gif -text
+*.pt -text
+*.cmd text eol=crlf

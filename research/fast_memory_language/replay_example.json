@@ -1,0 +1,65 @@
+{
+  "examples": [
+    {
+      "key": 9,
+      "writer": 0,
+      "reader": 2,
+      "observed": "00101011",
+      "answer": "00101011"
+    },
+    {
+      "key": 7,
+      "writer": 4,
+      "reader": 1,
+      "observed": "10010001",
+      "answer": "10010001"
+    },
+    {
+      "key": 6,
+      "writer": 5,
+      "reader": 2,
+      "observed": "10011010",
+      "answer": "10011010"
+    },
+    {
+      "key": 4,
+      "writer": 6,
+      "reader": 5,
+      "observed": "01110110",
+      "answer": "01110110"
+    },
+    {
+      "key": 5,
+      "writer": 3,
+      "reader": 1,
+      "observed": "11110011",
+      "answer": "11110011"
+    },
+    {
+      "key": 14,
+      "writer": 2,
+      "reader": 6,
+      "observed": "10011101",
+      "answer": "10011101"
+    },
+    {
+      "key": 11,
+      "writer": 4,
+      "reader": 1,
+      "observed": "10101111",
+      "answer": "10101111"
+    },
+    {
+      "key": 15,
+      "writer": 6,
+      "reader": 1,
+      "observed": "01010110",
+      "answer": "01010110"
+    }
+  ],
+  "scores": {
+    "bit_accuracy": 1.0,
+    "exact_accuracy": 1.0
+  },
+  "shared_weights_unchanged": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "Original generated toy grammar; not natural-corpus benchmark",
+  "training_sentences": 3584,
+  "validation_sentences": 512,
+  "sentence_overlap": 0,
+  "vocabulary_shared": true
+}

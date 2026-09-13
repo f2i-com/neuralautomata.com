@@ -1,0 +1,51 @@
+{'step': 1, 'nats_per_byte': 5.549232006072998}
+{'step': 100, 'nats_per_byte': 2.6474826335906982}
+{'step': 200, 'nats_per_byte': 1.9139904975891113}
+{'step': 300, 'nats_per_byte': 1.451243281364441}
+{'step': 400, 'nats_per_byte': 1.2039915323257446}
+{'step': 500, 'nats_per_byte': 0.9985411763191223}
+{'step': 600, 'nats_per_byte': 0.8418905138969421}
+{'step': 700, 'nats_per_byte': 0.7160406112670898}
+{'step': 800, 'nats_per_byte': 0.6170785427093506}
+{'step': 900, 'nats_per_byte': 0.5509114861488342}
+{'step': 1000, 'nats_per_byte': 0.5034458637237549}
+{'step': 1100, 'nats_per_byte': 0.4621349275112152}
+{'step': 1200, 'nats_per_byte': 0.42499610781669617}
+{'step': 1300, 'nats_per_byte': 0.3946920335292816}
+{'step': 1400, 'nats_per_byte': 0.3868122398853302}
+{'step': 1500, 'nats_per_byte': 0.35940560698509216}
+{'step': 1600, 'nats_per_byte': 0.36974573135375977}
+{'step': 1700, 'nats_per_byte': 0.33846890926361084}
+{'step': 1800, 'nats_per_byte': 0.32513102889060974}
+{'step': 1900, 'nats_per_byte': 0.3330173194408417}
+{'step': 2000, 'nats_per_byte': 0.31370988488197327}
+{
+  "config": {
+    "vocab_size": 256,
+    "channels": 32,
+    "hidden": 64,
+    "radius": 2,
+    "iterations": 8
+  },
+  "parameters": 29056,
+  "training_steps": 2000,
+  "processed_byte_targets": 3072000,
+  "max_context_bytes": 17,
+  "before": {
+    "sampled_validation_nats_per_byte": 5.548376262187958,
+    "sampled_validation_bits_per_byte": 8.00461491844461,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  "after": {
+    "sampled_validation_nats_per_byte": 0.32187506556510925,
+    "sampled_validation_bits_per_byte": 0.4643675608765931,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  "seconds": 42.169827690000034,
+  "train_sha256": "4d29c4db275cf7b9224b46159974d56a14b37c04a893125ec006251b6931be81",
+  "validation_sha256": "cee08b1ccf459ae2ebfd4d4d33000cb672845ff48f79ee1e58cd7ded90b6bc42",
+  "torch": "2.10.0+cpu",
+  "device": "cpu",
+  "limitations": "No fast-memory integration; fixed local context; no general language claim from this run",
+  "sample": "The silves the stone.\nThe gold raints the stone.\nThe rel stores the box.\nThenple map.\nThe red red ines the lamp.\nThe purple "
+}

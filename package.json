@@ -1,0 +1,12 @@
+{
+  "name": "neuralautomata-lab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/serve.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

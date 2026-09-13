@@ -1,0 +1,18 @@
+{
+  "in_distribution": {
+    "bit_accuracy": 1.0,
+    "exact_accuracy": 1.0
+  },
+  "overwrite": {
+    "bit_accuracy": 1.0,
+    "exact_accuracy": 1.0
+  },
+  "concentrated": {
+    "bit_accuracy": 1.0,
+    "exact_accuracy": 1.0
+  },
+  "larger_ring": {
+    "bit_accuracy": 1.0,
+    "exact_accuracy": 1.0
+  }
+}

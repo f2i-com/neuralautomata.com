@@ -1,0 +1,3 @@
+fast 0 {'step': 1, 'loss': 0.6970479488372803, 'bit_accuracy': 0.5390625, 'exact_accuracy': 0.015625, 'gradient_norm': 0.15275652706623077}
+fast 0 {'step': 100, 'loss': 0.368076890707016, 'bit_accuracy': 0.87109375, 'exact_accuracy': 0.28125, 'gradient_norm': 0.206995889544487}
+fast 0 {'step': 200, 'loss': 0.11138877272605896, 'bit_accuracy': 0.96484375, 'exact_accuracy': 0.8125, 'gradient_norm': 0.13310866057872772}

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "vocab_size": 256,
+    "channels": 32,
+    "hidden": 64,
+    "radius": 2,
+    "iterations": 8
+  },
+  "parameters": 29056,
+  "training_steps": 400,
+  "processed_byte_targets": 614400,
+  "max_context_bytes": 17,
+  "before": {
+    "sampled_validation_nats_per_byte": 5.548376262187958,
+    "sampled_validation_bits_per_byte": 8.00461491844461,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  "after": {
+    "sampled_validation_nats_per_byte": 1.2134171649813652,
+    "sampled_validation_bits_per_byte": 1.7505909264481607,
+    "note": "Mean over fixed sampled validation windows, including left-edge warmup positions"
+  },
+  "seconds": 8.743638948000012,
+  "train_sha256": "4d29c4db275cf7b9224b46159974d56a14b37c04a893125ec006251b6931be81",
+  "validation_sha256": "cee08b1ccf459ae2ebfd4d4d33000cb672845ff48f79ee1e58cd7ded90b6bc42",
+  "torch": "2.10.0+cpu",
+  "device": "cpu",
+  "limitations": "No fast-memory integration; fixed local context; no general language claim from this run",
+  "sample": "The sxsp.\nTGn farpave whire ke.\nThe morr lokessastlzyerl nhlss fo.\nTh kelyerne rost csvT\ufffde saariue cesshskel ke minet the po"
+}

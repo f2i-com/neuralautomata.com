@@ -1,0 +1,131 @@
+{
+  "metrics": {
+    "in_distribution": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.43965837761763393
+    },
+    "reset_fast_memory": {
+      "bit_accuracy": 0.49755859375,
+      "exact_accuracy": 0.001953125
+    },
+    "writes_disabled": {
+      "bit_accuracy": 0.49755859375,
+      "exact_accuracy": 0.001953125
+    },
+    "communication_disabled": {
+      "bit_accuracy": 0.493896484375,
+      "exact_accuracy": 0.001953125
+    },
+    "transplant_vs_donor": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0
+    },
+    "transplant_vs_original": {
+      "bit_accuracy": 0.0,
+      "exact_accuracy": 0.0
+    },
+    "erase_source_cell": {
+      "bit_accuracy": 0.512939453125,
+      "exact_accuracy": 0.00390625
+    },
+    "insufficient_rounds": {
+      "bit_accuracy": 0.49755859375,
+      "exact_accuracy": 0.001953125
+    },
+    "overwrite": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.4390919158147003
+    },
+    "more_records": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.6209151842304486
+    },
+    "concentrated": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.6143378237245253
+    },
+    "larger_ring": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.3108953692694196
+    },
+    "larger_ring_overwrite": {
+      "bit_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "state_rms": 0.43934205875065585
+    },
+    "key_geometry": {
+      "mean_abs_offdiag": 0.041002555688222246,
+      "max_abs_offdiag": 0.15381042659282684
+    }
+  },
+  "examples": [
+    {
+      "id": 0,
+      "symbol": 5,
+      "writer": 2,
+      "reader": 6,
+      "written": "01100110",
+      "answer": "01100110",
+      "donor": "10011001",
+      "transplanted_answer": "10011001"
+    },
+    {
+      "id": 1,
+      "symbol": 7,
+      "writer": 6,
+      "reader": 4,
+      "written": "10110100",
+      "answer": "10110100",
+      "donor": "01001011",
+      "transplanted_answer": "01001011"
+    },
+    {
+      "id": 2,
+      "symbol": 13,
+      "writer": 3,
+      "reader": 2,
+      "written": "01011110",
+      "answer": "01011110",
+      "donor": "10100001",
+      "transplanted_answer": "10100001"
+    },
+    {
+      "id": 3,
+      "symbol": 11,
+      "writer": 3,
+      "reader": 7,
+      "written": "01110110",
+      "answer": "01110110",
+      "donor": "10001001",
+      "transplanted_answer": "10001001"
+    }
+  ],
+  "parameter_hash": "74d083fe462a506b5712a992b7a9994b57af173359b3f007d440ad74b4e48a3f",
+  "parameters_unchanged": true,
+  "seed": 2,
+  "variant": "fast",
+  "training_steps": 600,
+  "batch": 64,
+  "seconds": 6.303956005000003,
+  "counts": {
+    "total": 385,
+    "trainable": 385,
+    "private_floats_per_cell": 128,
+    "packet_floats_per_cell": 25
+  },
+  "initial_hash": "99725e4c9c050313265ce6c941b92670be4f2918f6ff940637974873f0e2afd3",
+  "config": {
+    "symbols": 16,
+    "bits": 8,
+    "key_dim": 16,
+    "value_dim": 8,
+    "variant": "fast"
+  },
+  "status": "Exploratory CPU experiment; fixed ring transport, learned encodings",
+  "reload_matches": true
+}

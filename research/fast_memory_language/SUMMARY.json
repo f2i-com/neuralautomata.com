@@ -1,0 +1,854 @@
+{
+  "fast": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "counts": {
+      "total": 385,
+      "trainable": 385,
+      "private_floats_per_cell": 128,
+      "packet_floats_per_cell": 25
+    },
+    "metrics": {
+      "in_distribution": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.42675392471851104,
+          "min": 0.4163017907952112,
+          "max": 0.43965837761763393
+        }
+      },
+      "reset_fast_memory": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "writes_disabled": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "communication_disabled": {
+        "bit_accuracy": {
+          "mean": 0.4973958333333333,
+          "min": 0.493896484375,
+          "max": 0.499267578125
+        },
+        "exact_accuracy": {
+          "mean": 0.00390625,
+          "min": 0.001953125,
+          "max": 0.0078125
+        }
+      },
+      "transplant_vs_donor": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "transplant_vs_original": {
+        "bit_accuracy": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "exact_accuracy": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "erase_source_cell": {
+        "bit_accuracy": {
+          "mean": 0.5093587239583334,
+          "min": 0.502197265625,
+          "max": 0.512939453125
+        },
+        "exact_accuracy": {
+          "mean": 0.00390625,
+          "min": 0.0,
+          "max": 0.0078125
+        }
+      },
+      "insufficient_rounds": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "overwrite": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.4267425455900037,
+          "min": 0.4163368178228846,
+          "max": 0.4390919158147003
+        }
+      },
+      "more_records": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.6028018044432831,
+          "min": 0.58828592218479,
+          "max": 0.6209151842304486
+        }
+      },
+      "concentrated": {
+        "bit_accuracy": {
+          "mean": 0.999755859375,
+          "min": 0.999267578125,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 0.998046875,
+          "min": 0.994140625,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.5953855796251286,
+          "min": 0.5791099923518909,
+          "max": 0.6143378237245253
+        }
+      },
+      "larger_ring": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.30192991517806766,
+          "min": 0.2949785630562935,
+          "max": 0.3108953692694196
+        }
+      },
+      "larger_ring_overwrite": {
+        "bit_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "exact_accuracy": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "state_rms": {
+          "mean": 0.4267747131901881,
+          "min": 0.4165751097455879,
+          "max": 0.43934205875065585
+        }
+      },
+      "key_geometry": {
+        "mean_abs_offdiag": {
+          "mean": 0.04176333612865872,
+          "min": 0.03988811175028483,
+          "max": 0.04439934094746908
+        },
+        "max_abs_offdiag": {
+          "mean": 0.16825327773888907,
+          "min": 0.15381042659282684,
+          "max": 0.1881578266620636
+        }
+      }
+    }
+  },
+  "frozen_keys": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "counts": {
+      "total": 385,
+      "trainable": 129,
+      "private_floats_per_cell": 128,
+      "packet_floats_per_cell": 25
+    },
+    "metrics": {
+      "in_distribution": {
+        "bit_accuracy": {
+          "mean": 0.938232421875,
+          "min": 0.926513671875,
+          "max": 0.94677734375
+        },
+        "exact_accuracy": {
+          "mean": 0.658203125,
+          "min": 0.603515625,
+          "max": 0.697265625
+        },
+        "state_rms": {
+          "mean": 0.3618657793651831,
+          "min": 0.33702596023793,
+          "max": 0.38426291738956375
+        }
+      },
+      "reset_fast_memory": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "writes_disabled": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "communication_disabled": {
+        "bit_accuracy": {
+          "mean": 0.4866536458333333,
+          "min": 0.483642578125,
+          "max": 0.491943359375
+        },
+        "exact_accuracy": {
+          "mean": 0.0026041666666666665,
+          "min": 0.001953125,
+          "max": 0.00390625
+        }
+      },
+      "transplant_vs_donor": {
+        "bit_accuracy": {
+          "mean": 0.938232421875,
+          "min": 0.926513671875,
+          "max": 0.94677734375
+        },
+        "exact_accuracy": {
+          "mean": 0.658203125,
+          "min": 0.603515625,
+          "max": 0.697265625
+        }
+      },
+      "transplant_vs_original": {
+        "bit_accuracy": {
+          "mean": 0.061767578125,
+          "min": 0.05322265625,
+          "max": 0.073486328125
+        },
+        "exact_accuracy": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "erase_source_cell": {
+        "bit_accuracy": {
+          "mean": 0.4969075520833333,
+          "min": 0.4931640625,
+          "max": 0.504150390625
+        },
+        "exact_accuracy": {
+          "mean": 0.005859375,
+          "min": 0.00390625,
+          "max": 0.0078125
+        }
+      },
+      "insufficient_rounds": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "overwrite": {
+        "bit_accuracy": {
+          "mean": 0.9483235677083334,
+          "min": 0.935791015625,
+          "max": 0.9609375
+        },
+        "exact_accuracy": {
+          "mean": 0.69921875,
+          "min": 0.638671875,
+          "max": 0.767578125
+        },
+        "state_rms": {
+          "mean": 0.362453416429743,
+          "min": 0.33809048286950294,
+          "max": 0.3842444026406737
+        }
+      },
+      "more_records": {
+        "bit_accuracy": {
+          "mean": 0.8507486979166666,
+          "min": 0.820068359375,
+          "max": 0.86767578125
+        },
+        "exact_accuracy": {
+          "mean": 0.3053385416666667,
+          "min": 0.220703125,
+          "max": 0.349609375
+        },
+        "state_rms": {
+          "mean": 0.5040125576536826,
+          "min": 0.4687902753655375,
+          "max": 0.5358663954050235
+        }
+      },
+      "concentrated": {
+        "bit_accuracy": {
+          "mean": 0.8308919270833334,
+          "min": 0.802490234375,
+          "max": 0.846435546875
+        },
+        "exact_accuracy": {
+          "mean": 0.4029947916666667,
+          "min": 0.357421875,
+          "max": 0.431640625
+        },
+        "state_rms": {
+          "mean": 0.4203955546207247,
+          "min": 0.3860982430139023,
+          "max": 0.44969856679009135
+        }
+      },
+      "larger_ring": {
+        "bit_accuracy": {
+          "mean": 0.938232421875,
+          "min": 0.919677734375,
+          "max": 0.95751953125
+        },
+        "exact_accuracy": {
+          "mean": 0.6575520833333334,
+          "min": 0.56640625,
+          "max": 0.748046875
+        },
+        "state_rms": {
+          "mean": 0.2578430083623514,
+          "min": 0.24073746356296616,
+          "max": 0.2734338795290568
+        }
+      },
+      "larger_ring_overwrite": {
+        "bit_accuracy": {
+          "mean": 0.8658040364583334,
+          "min": 0.843017578125,
+          "max": 0.879638671875
+        },
+        "exact_accuracy": {
+          "mean": 0.337890625,
+          "min": 0.263671875,
+          "max": 0.3828125
+        },
+        "state_rms": {
+          "mean": 0.36196161597207943,
+          "min": 0.33726620720073214,
+          "max": 0.38403761112532814
+        }
+      },
+      "key_geometry": {
+        "mean_abs_offdiag": {
+          "mean": 0.1998627503712972,
+          "min": 0.1836604118347168,
+          "max": 0.21494150161743164
+        },
+        "max_abs_offdiag": {
+          "mean": 0.6481943925221761,
+          "min": 0.5999760627746582,
+          "max": 0.7333999276161194
+        }
+      }
+    }
+  },
+  "gru": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "counts": {
+      "total": 69313,
+      "trainable": 69313,
+      "private_floats_per_cell": 128,
+      "packet_floats_per_cell": 25
+    },
+    "metrics": {
+      "in_distribution": {
+        "bit_accuracy": {
+          "mean": 0.59814453125,
+          "min": 0.594482421875,
+          "max": 0.603515625
+        },
+        "exact_accuracy": {
+          "mean": 0.046875,
+          "min": 0.041015625,
+          "max": 0.05859375
+        },
+        "state_rms": {
+          "mean": 0.17413155695297883,
+          "min": 0.16307114855854968,
+          "max": 0.19048700141969474
+        }
+      },
+      "reset_fast_memory": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "writes_disabled": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "communication_disabled": {
+        "bit_accuracy": {
+          "mean": 0.4874674479166667,
+          "min": 0.48681640625,
+          "max": 0.48828125
+        },
+        "exact_accuracy": {
+          "mean": 0.006510416666666667,
+          "min": 0.005859375,
+          "max": 0.0078125
+        }
+      },
+      "transplant_vs_donor": {
+        "bit_accuracy": {
+          "mean": 0.5951334635416666,
+          "min": 0.593017578125,
+          "max": 0.597900390625
+        },
+        "exact_accuracy": {
+          "mean": 0.042317708333333336,
+          "min": 0.037109375,
+          "max": 0.048828125
+        }
+      },
+      "transplant_vs_original": {
+        "bit_accuracy": {
+          "mean": 0.4048665364583333,
+          "min": 0.402099609375,
+          "max": 0.406982421875
+        },
+        "exact_accuracy": {
+          "mean": 0.0026041666666666665,
+          "min": 0.001953125,
+          "max": 0.00390625
+        }
+      },
+      "erase_source_cell": {
+        "bit_accuracy": {
+          "mean": 0.50927734375,
+          "min": 0.508544921875,
+          "max": 0.51025390625
+        },
+        "exact_accuracy": {
+          "mean": 0.010416666666666666,
+          "min": 0.005859375,
+          "max": 0.015625
+        }
+      },
+      "insufficient_rounds": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "overwrite": {
+        "bit_accuracy": {
+          "mean": 0.81298828125,
+          "min": 0.79541015625,
+          "max": 0.845947265625
+        },
+        "exact_accuracy": {
+          "mean": 0.2916666666666667,
+          "min": 0.220703125,
+          "max": 0.376953125
+        },
+        "state_rms": {
+          "mean": 0.1889328592469718,
+          "min": 0.17786310356986923,
+          "max": 0.20352283007909025
+        }
+      },
+      "more_records": {
+        "bit_accuracy": {
+          "mean": 0.551025390625,
+          "min": 0.547119140625,
+          "max": 0.55517578125
+        },
+        "exact_accuracy": {
+          "mean": 0.020182291666666668,
+          "min": 0.01953125,
+          "max": 0.021484375
+        },
+        "state_rms": {
+          "mean": 0.2658969174823359,
+          "min": 0.24898100374354296,
+          "max": 0.2856608697232939
+        }
+      },
+      "concentrated": {
+        "bit_accuracy": {
+          "mean": 0.530517578125,
+          "min": 0.528564453125,
+          "max": 0.53271484375
+        },
+        "exact_accuracy": {
+          "mean": 0.046223958333333336,
+          "min": 0.04296875,
+          "max": 0.048828125
+        },
+        "state_rms": {
+          "mean": 0.16573226718593123,
+          "min": 0.1548492705949216,
+          "max": 0.17311878818447152
+        }
+      },
+      "larger_ring": {
+        "bit_accuracy": {
+          "mean": 0.614990234375,
+          "min": 0.613525390625,
+          "max": 0.61767578125
+        },
+        "exact_accuracy": {
+          "mean": 0.03125,
+          "min": 0.03125,
+          "max": 0.03125
+        },
+        "state_rms": {
+          "mean": 0.11695077861636162,
+          "min": 0.10902805290502521,
+          "max": 0.1293336207556323
+        }
+      },
+      "larger_ring_overwrite": {
+        "bit_accuracy": {
+          "mean": 0.7313639322916666,
+          "min": 0.707275390625,
+          "max": 0.75830078125
+        },
+        "exact_accuracy": {
+          "mean": 0.11197916666666667,
+          "min": 0.08203125,
+          "max": 0.126953125
+        },
+        "state_rms": {
+          "mean": 0.18222140638924286,
+          "min": 0.17135920345605726,
+          "max": 0.19783247479530466
+        }
+      },
+      "key_geometry": {
+        "mean_abs_offdiag": {
+          "mean": 0.19441775215996637,
+          "min": 0.17738614082336426,
+          "max": 0.20606404940287273
+        },
+        "max_abs_offdiag": {
+          "mean": 0.646393358707428,
+          "min": 0.6029801368713379,
+          "max": 0.7157164812088013
+        }
+      }
+    }
+  },
+  "fast_k8": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "counts": {
+      "total": 257,
+      "trainable": 257,
+      "private_floats_per_cell": 64,
+      "packet_floats_per_cell": 17
+    },
+    "metrics": {
+      "in_distribution": {
+        "bit_accuracy": {
+          "mean": 0.9213053385416666,
+          "min": 0.91650390625,
+          "max": 0.9248046875
+        },
+        "exact_accuracy": {
+          "mean": 0.5579427083333334,
+          "min": 0.54296875,
+          "max": 0.568359375
+        },
+        "state_rms": {
+          "mean": 0.4785956006204221,
+          "min": 0.4629053028600057,
+          "max": 0.4884181575049075
+        }
+      },
+      "reset_fast_memory": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "writes_disabled": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "communication_disabled": {
+        "bit_accuracy": {
+          "mean": 0.4998372395833333,
+          "min": 0.493408203125,
+          "max": 0.50830078125
+        },
+        "exact_accuracy": {
+          "mean": 0.004557291666666667,
+          "min": 0.001953125,
+          "max": 0.005859375
+        }
+      },
+      "transplant_vs_donor": {
+        "bit_accuracy": {
+          "mean": 0.9213053385416666,
+          "min": 0.91650390625,
+          "max": 0.9248046875
+        },
+        "exact_accuracy": {
+          "mean": 0.5579427083333334,
+          "min": 0.54296875,
+          "max": 0.568359375
+        }
+      },
+      "transplant_vs_original": {
+        "bit_accuracy": {
+          "mean": 0.07869466145833333,
+          "min": 0.0751953125,
+          "max": 0.08349609375
+        },
+        "exact_accuracy": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "erase_source_cell": {
+        "bit_accuracy": {
+          "mean": 0.4954427083333333,
+          "min": 0.488037109375,
+          "max": 0.501220703125
+        },
+        "exact_accuracy": {
+          "mean": 0.004557291666666667,
+          "min": 0.0,
+          "max": 0.009765625
+        }
+      },
+      "insufficient_rounds": {
+        "bit_accuracy": {
+          "mean": 0.49755859375,
+          "min": 0.49755859375,
+          "max": 0.49755859375
+        },
+        "exact_accuracy": {
+          "mean": 0.001953125,
+          "min": 0.001953125,
+          "max": 0.001953125
+        }
+      },
+      "overwrite": {
+        "bit_accuracy": {
+          "mean": 0.9358723958333334,
+          "min": 0.934814453125,
+          "max": 0.936767578125
+        },
+        "exact_accuracy": {
+          "mean": 0.62890625,
+          "min": 0.625,
+          "max": 0.634765625
+        },
+        "state_rms": {
+          "mean": 0.47859699133256106,
+          "min": 0.4634719300323898,
+          "max": 0.4876593835650775
+        }
+      },
+      "more_records": {
+        "bit_accuracy": {
+          "mean": 0.8129069010416666,
+          "min": 0.807373046875,
+          "max": 0.816650390625
+        },
+        "exact_accuracy": {
+          "mean": 0.201171875,
+          "min": 0.171875,
+          "max": 0.232421875
+        },
+        "state_rms": {
+          "mean": 0.6642413875197154,
+          "min": 0.6435605777988995,
+          "max": 0.6769754316420318
+        }
+      },
+      "concentrated": {
+        "bit_accuracy": {
+          "mean": 0.7357584635416666,
+          "min": 0.733154296875,
+          "max": 0.73779296875
+        },
+        "exact_accuracy": {
+          "mean": 0.244140625,
+          "min": 0.232421875,
+          "max": 0.251953125
+        },
+        "state_rms": {
+          "mean": 0.47591793672972776,
+          "min": 0.4617699255044925,
+          "max": 0.485865017487437
+        }
+      },
+      "larger_ring": {
+        "bit_accuracy": {
+          "mean": 0.9283040364583334,
+          "min": 0.921142578125,
+          "max": 0.93310546875
+        },
+        "exact_accuracy": {
+          "mean": 0.5865885416666666,
+          "min": 0.560546875,
+          "max": 0.60546875
+        },
+        "state_rms": {
+          "mean": 0.3407917041416167,
+          "min": 0.3299638039968979,
+          "max": 0.34747329677949734
+        }
+      },
+      "larger_ring_overwrite": {
+        "bit_accuracy": {
+          "mean": 0.8369140625,
+          "min": 0.828857421875,
+          "max": 0.843994140625
+        },
+        "exact_accuracy": {
+          "mean": 0.22330729166666666,
+          "min": 0.21484375,
+          "max": 0.236328125
+        },
+        "state_rms": {
+          "mean": 0.4783450622737113,
+          "min": 0.4631669864935688,
+          "max": 0.48785478884955374
+        }
+      },
+      "key_geometry": {
+        "mean_abs_offdiag": {
+          "mean": 0.21391941176520454,
+          "min": 0.2083632787068685,
+          "max": 0.21686439514160155
+        },
+        "max_abs_offdiag": {
+          "mean": 0.5928957064946493,
+          "min": 0.5502902865409851,
+          "max": 0.6266455054283142
+        }
+      }
+    }
+  }
+}

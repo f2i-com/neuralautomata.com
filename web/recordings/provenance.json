@@ -1,0 +1,37 @@
+{
+  "capturedAtUtc": "20260913T114116Z",
+  "browser": "152.0.7977.83",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "devices": [
+    {
+      "id": "cuda:0",
+      "name": "NVIDIA GeForce RTX 5090",
+      "totalMiB": 32607,
+      "usable": true
+    },
+    {
+      "id": "cuda:1",
+      "name": "NVIDIA GeForce RTX 5090",
+      "totalMiB": 32607,
+      "usable": true
+    }
+  ],
+  "clips": {
+    "nca-memory": {
+      "frames": 60,
+      "capturedSeconds": 9.9,
+      "playbackFps": 6.062
+    },
+    "nca-language": {
+      "frames": 72,
+      "capturedSeconds": 11.9,
+      "playbackFps": 6.053
+    }
+  },
+  "sourceSha256": {
+    "server/native_lab.py": "906213f74d5f6a1fcc6ee302bd4c6dfa3895c43c0c5d8ef808cada6609b581f6",
+    "web/nca-renderer.mjs": "8643e7f7adde7b5e288313617f3b4d05a9bedfb86597c0d5ca4ca73f8b95b430"
+  },
+  "note": "Actual local browser captures. NCA runs in native CPython/PyTorch CUDA; WebGL2 renders model state. GIFs are demonstrations, not benchmarks."
+}

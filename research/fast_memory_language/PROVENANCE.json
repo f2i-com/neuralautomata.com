@@ -1,0 +1,8 @@
+{
+  "original_repo_modified": false,
+  "prior_reused_file": "legacy/fast_memory.py",
+  "reused_sha256": "b1e7a63f1615d7c8b8660eb6b1ab2035f8efc5c70527e78a5e55ece3c6195a2a",
+  "new_models_initialized_from_scratch": true,
+  "source_commit": "Independent generated reference, no Git commit assigned",
+  "notes": "No native izuc/nca source was accessible. No GPU benchmarks. Trained memory protocol and byte LM are separate models."
+}
